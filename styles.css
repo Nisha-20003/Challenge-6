@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #1d1b1ba2, #1d100ab1); 
+} 
+
+.container {
+    width: 850px;
+    height: 300px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+    box-shadow: 10px 15px 15px black;
+    animation: box 1s linear forwards;
+}
+
+@keyframes box {
+    from {
+        margin-top: 0%;
+    }
+    to {
+        margin-top: 30%;
+    }
+}
+
+.input {
+    margin-left: 100px;
+    margin-top: 40px;
+    height: 100px;
+    width: 550px;
+    margin-right: 14px;
+    border: 3px solid black;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
+button.button {
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
+.container2 {
+    margin-top: 60px;
+    background-color: white;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style-type: none;
+    font-size: 24px;
+    margin: 10px 0;
+    padding-left: 8px;
+    
+}
+
+.delete-btn, .done-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.done-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
